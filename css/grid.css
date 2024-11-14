@@ -1,0 +1,51 @@
+.container-grid{
+    margin-top: 55px;
+    margin-left: 70px;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr ;
+     column-gap: 20px;
+     row-gap: 40px;
+     background-color: white
+     box-sizing border-box;
+     padding:20px;
+     
+   
+ }
+ .sub-grid1{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: hwb(0 100% 0% / 0.857);
+    height: 300px;
+    
+
+ }
+ .sub-grid2{
+    display: grid;
+    grid-template-columns: 58px 1fr;
+    
+   
+
+ }
+ .thumbnail-image{
+    width: 300px;
+ }
+ .channel-icons{
+    width: 34px;
+    border-radius: 17px;
+  
+    margin-left: 15px;
+    
+ }
+ .video-caption{
+ margin: 0px;
+ font-family: Roboto,arial;
+ font-weight: 500;
+ font-size: 14px;
+ line-height: 20px;
+ }
+ .stats{
+ font-family: Roboto,arial;
+ color: rgb(96, 96, 96);
+ font-size: 12px;
+ margin-bottom: 0px;
+ }
